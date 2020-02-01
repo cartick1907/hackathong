@@ -9,7 +9,15 @@ body{
 div.header{
     background-color: #ff3e41;
     font-size: 38;
-    height: 20%;
+    height: 15%;
+    color: #f7f7f2;
+    vertical-align: middle;
+}
+div.sidebar>div.header{
+    margin-top: -20px;
+    background-color: #ff3e41;
+    font-size: 38;
+    height: 15%;
     color: #f7f7f2;
     vertical-align: middle;
 }
@@ -37,7 +45,7 @@ div.footer{
     background-color: #ff3e41;
     position:absolute;
     bottom:0;
-    width:100%;
+    width: 85%;
     height:60px;
     color: #f7f7f2;
     text-align: center;
@@ -46,7 +54,20 @@ div.footer{
 div.tile{
 
 }
-
+div.sidebar{
+    margin-top: 0;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 15%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+div.main{
+    margin-left: 15%;
+}
 input[type=text]{
     height: 40px;
     font-size: 32;
@@ -54,6 +75,7 @@ input[type=text]{
     border-radius: 10px;
     border: 2px solid  #d5fff3;
     padding-left: 1%;
+    float: right;
 }
 input[type=password]{
     height: 40px;
@@ -61,7 +83,8 @@ input[type=password]{
     color: #af9ab2;
     border-radius: 10px;
     padding-left: 1%;
-    border: 2px solid  #d5fff3
+    border: 2px solid  #d5fff3;
+    float: right;
 }
 input[type=submit]{
     width: 130px;
@@ -74,5 +97,5 @@ input[type=submit]{
 fieldset{
     font-size: 28;
     text-align: center;
-
+    padding-right: 20%;
 }
