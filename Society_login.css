@@ -1,0 +1,107 @@
+body{
+    background-color: #f7f7f2;
+    text-decoration: none;
+    font-size: 18;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+div.header{
+    background-color: #ff3e41;
+    font-size: 38;
+    height: 10%;
+    color: #f7f7f2;
+    vertical-align: middle;
+}
+div.sidebar>div.header{
+    background-image: url(Wall/logo.jpg);
+    width: 100px;
+   left: 16.5%;
+   top:2.5%;
+    position: relative;
+    margin-top: -20px;
+    background-color: #ff3e41;
+    font-size: 38;
+    height: 10%;
+    color: #f7f7f2;
+    vertical-align: middle;
+}
+span.logo{
+    position: relative;
+    padding-top: 1.5%;
+    font-family: impact;
+    padding-left: 2%;
+    float: left;
+}
+span.heading{
+    padding-top: 1.5%;
+    float: right;
+    padding-right: 2%;
+
+}
+div.content{
+    padding-top: 10px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.footer{
+    position: absolute;
+    background-color: #ff3e41;
+    position:relative;
+    bottom:0;
+    width: 90%;
+    height:60px;
+    color: #f7f7f2;
+    text-align: center;
+    padding-top: 10px;
+}
+div.tile{
+
+}
+div.sidebar{
+    background-image: url(Wall/left.jpg);
+    margin-top: 0;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 10%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+div.main{
+    margin-left: 10%;
+}
+input[type=text]{
+    height: 40px;
+    font-size: 32;
+    color: #af9ab2;
+    border-radius: 10px;
+    border: 2px solid  #d5fff3;
+    padding-left: 1%;
+    float: right;
+}
+input[type=password]{
+    height: 40px;
+    font-size: 32;
+    color: #af9ab2;
+    border-radius: 10px;
+    padding-left: 1%;
+    border: 2px solid  #d5fff3;
+    float: right;
+}
+input[type=submit]{
+    width: 130px;
+    height: 40px;
+    color: #f7f7f2;
+    background-color: #ff3e41;
+    border-radius: 10px;
+    font-size: 28;
+}
+fieldset{
+    font-size: 28;
+    text-align: center;
+    padding-right: 20%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="LUL_CSS.css">
+    <title> Student Login</title>
+    <meta charset="utf-8">
+<? session_start() ?>
+</head>
+<body>
+    <div class = "sidebar">
+        <div class = "header">
+      
+        </div>
+    </div>
+    <div class = "main">
+    <div class = "header">
+        <span class = "logo"><b> Interact </b></span>
+        <span class = "heading">
+            Heading
+        </span>
+    </div>
+    <div class = "content">
+        <div class = "tile">
+            <fieldset>
+                <legend>Student Login</legend>
+                <form method="post" name="Student_login" action = "\includes\Student_login.php">
+                    <span>Roll Number</span>&nbsp;
+                    <input type = "text" name = "Rollno" maxlength="60"><br><br>
+                    <span>Password </span>&nbsp;
+                    <input type = "password" name = "password" maxlength="60">
+                    <br><br>
+                    <input type = "submit" name = "log_btn" value = "LOGIN">
+                </form>
+            </fieldset>
+        </div>
+        <div class = "tile">
+            <fieldset>
+                <legend>Student Sign Up</legend>
+                <form method="post" name="Student_signup" action = "\includes\Student_signup.php">
+                    <span>First Name </span>&nbsp;
+                    <input type = "text" name = "f_name" placeholder="First Name" maxlength="60">
+                    <br><br>
+                    <span>Last Name </span>&nbsp;
+                    <input type = "text" name = "l_name" placeholder="Last Name" maxlength="60">
+                    <br><br>
+                    <span>Roll Number </span>&nbsp;
+                    <input type = "text" name = "stu_Rollno" maxlength="60">
+                    <br><br>
+                    <span>Email </span>&nbsp;
+                    <input type = "text" name = "stu_email" maxlength="60">
+                    <br><br>
+                    <span>Mobile No </span>&nbsp;
+                    <input type = "text" name = "stu_mobile" maxlength="60">
+                    <br><br>
+                    <span>Password </span>&nbsp;
+                    <input type = "text" name = "stu_password" maxlength="60">
+                    <br><br>
+                    <span>Retype Password </span>&nbsp;
+                    <input type = "text" name = "stu_repassword" maxlength="60">
+                    <br><br>
+
+                    <input type = "submit" name = "log_btn" value = "LOGIN">
+                </form>
+            </fieldset>
+        </div>
+    </div>
+   <div class = "footer">
+        <p>Made with <3 by word.exe</p>
+    </div>
+</div>
+</body>
+</html>
